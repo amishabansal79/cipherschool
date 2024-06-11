@@ -1,0 +1,30 @@
+
+/* *{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1, .mypara,p{
+  text-align: center;
+  color: brown;
+}
+div p{
+  background-color: yellow;
+}
+div > p{
+  background-color: cyan;
+} */
+
+/* div + p{
+  background-color: yellow;
+} */
+
+/* div ~ p:hover{
+  background-color: yellow;
+} */
+
+div ~ p::first-letter{
+  background-color: rgb(255, 0, 0);
+}
+
+a[target]{
+  background-color: rgb(0, 122, 128);
+}
